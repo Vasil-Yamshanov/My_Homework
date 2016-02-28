@@ -1,0 +1,52 @@
+body{
+  background-color: grey;
+  margin: 0px 25% 5%;
+}
+.main{
+  background-color: white;
+
+
+}
+.name{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.image{
+  text-align: center;
+  margin-top: 30px;
+}
+.student{
+  margin: 20px 50px 0px;
+  padding-left: 40px;
+  font-size: 20px;
+  border-bottom: 3px solid grey;
+  padding-bottom: 20px;
+  line-height: 40px;
+}
+.frontend{
+  margin: 20px 50px 0px;
+  padding-left: 40px;
+  font-size: 20px;
+  border-bottom: 3px solid grey;
+  line-height: 40px;
+
+}
+.list{
+  margin-top: 30px;
+}
+.vk{
+  margin: 20px 50px 0px;
+  padding-left: 40px;
+  font-size: 20px;
+  border-bottom: 3px solid grey;
+  line-height: 40px;
+}
+.feedback{
+  margin: 20px 50px 0px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  line-height: 40px;
+}

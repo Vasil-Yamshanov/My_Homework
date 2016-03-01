@@ -1,0 +1,111 @@
+body {
+  background-color: #f9f9f9;
+}
+.main {
+  width: 1060px;
+  height: 950px;
+  margin: 0px auto;
+  background-color: #ffffff;
+}
+.logo {
+  font-size: 50px;
+  padding: 60px 0px 0px 45px;
+  font-weight: bold;
+}
+.topbar {
+  width: 970px;
+  margin: 40px 0px 0px 45px;
+  background-color: #505050;
+}
+.topbar li {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+.topbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+
+}
+.topbar a:hover {
+  background: #343434;
+  height: 100%;
+}
+.sidebar {
+  background-color: #ece9e9;
+  height: 100%;
+  width: 240px;
+  margin: 45px;
+  float: left;
+}
+.sidebar li {
+  display: block;
+  height: 40px;
+  width: 240px;
+  line-height: 40px;
+  font-size: 20px;
+  border: black solid 1px;
+}
+.sidebar a {
+  display: block;
+  color: grey;
+  text-decoration: none;
+  padding-left: 35px;
+}
+.sidebar a:hover {
+  color: black;
+  padding-left: 60px;
+  height: 100%;
+  background-color: grey;
+}
+.image {
+  margin: 45px;
+}
+.lorem {
+  display: block;
+  width: 660px;
+  height: auto;
+  margin-left: 310px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.footer {
+  width: 970px;
+  margin: 40px 0px 0px 45px;
+  background-color: grey;
+}
+.footer li {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  padding-right: 20px;
+  cursor: auto;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+
+}
+.footer a {
+  display: block;
+  color: black;
+  text-decoration: none;
+
+}
+.footer a:hover {
+  height: 100%;
+  text-decoration: underline;
+}
+li.copy {
+  width: 269px;
+  padding-right: 45px;
+  text-align: right;
+
+}

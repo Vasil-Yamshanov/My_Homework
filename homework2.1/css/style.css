@@ -1,0 +1,27 @@
+body {
+  background-image: url(http://desktopwallpapers.org.ua/pic/201107/1680x1050/desktopwallpapers.org.ua-2773.jpg);
+  background-size: auto;
+}
+.name {
+  font-size: 40px;
+  color: white;
+  margin: 150px 0px 0px 100px;
+}
+.rus {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0px 0px 165px;
+}
+.logo{
+  float: left;
+}
+.contacts {
+  color: white;
+  font-size: 15px;
+  text-align: right;
+  padding: 150px 100px 0px 0px;
+}
+.contacts::first-line{
+  font-size: 25px;
+  line-height: 40px;
+}

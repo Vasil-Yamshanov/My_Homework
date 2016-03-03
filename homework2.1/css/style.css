@@ -1,27 +1,51 @@
 body {
-  background-image: url(http://desktopwallpapers.org.ua/pic/201107/1680x1050/desktopwallpapers.org.ua-2773.jpg);
-  background-size: auto;
+    background-image: url(http://desktopwallpapers.org.ua/pic/201107/1680x1050/desktopwallpapers.org.ua-2773.jpg);
+    background-size: auto;
 }
 .name {
-  font-size: 40px;
-  color: white;
-  margin: 150px 0px 0px 100px;
+    font-size: 40px;
+    color: white;
+    margin: 150px 0px 0px 100px;
 }
 .rus {
-  color: white;
-  font-size: 20px;
-  margin: 10px 0px 0px 165px;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px 0px 165px;
 }
 .logo{
-  float: left;
+    float: left;
 }
 .contacts {
-  color: white;
-  font-size: 15px;
-  text-align: right;
-  padding: 150px 100px 0px 0px;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    padding: 150px 100px 0px 0px;
 }
 .contacts::first-line{
-  font-size: 25px;
-  line-height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.content{
+    margin: 50px 130px;
+}
+.content li {
+    display: inline-block;
+    width: 320px;
+    margin: 0px 10px 60px 0px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.content img {
+    display: block;
+    margin-bottom: 5px;
+    margin: 0 auto;
+  }
+.copy {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

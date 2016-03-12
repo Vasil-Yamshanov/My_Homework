@@ -1,15 +1,16 @@
 body {
-  background-color: grey;
+  background-image: url(../img/fon.jpg);
 }
 .parent {
   background-color: white;
-  width: 1060px;
+  width: 1064px;
   height: 900px;
   margin: 0px auto;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
 .logo img {
     float: left;
-    margin: 15px 0px 0px 90px;
+    margin: 11px 0px 0px 90px;
 }
 .contacts {
     float: right;
@@ -30,28 +31,26 @@ body {
     font-size: 15px;
     width: 65px;
 }
-.countries {
-  /*position: relative;
-  overflow: hidden;
-  margin-right: 25px;*/
-}
 .countries img {
     display: block;
     margin: 0 auto 5px;
   }
-
 .clearfix:after{
     content: '';
     display: block;
     clear: right;
 }
 .beach img {
-  width: 1060px;
+  width: 1064px;
+  vertical-align: bottom;
 }
 ul:after {
     display: block;
     content: ' ';
     clear: both;
+}
+ul.menu {
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);;
 }
 ul.menu > li {
     float: left;
@@ -61,20 +60,20 @@ ul.menu > li > a {
     display: block;
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #333333;
     text-decoration: none;
-}
-ul.menu > li > a:hover {
-    background-color: grey;
+    text-align: center;
+    width: 132px;
 }
 ul.submenu {
     display: none;
     position: absolute;
-    width: 120px;
+    width: 152px;
     top: 37px;
     left: 0;
-    background-color: white;
-    border: 1px solid red;
+    font-size: 15px;
+    border-top: 2px solid black;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
 ul.submenu > li {
     display: block;
@@ -83,7 +82,7 @@ ul.submenu > li > a {
     display: block;
     padding: 10px;
     color: white;
-    background-color: red;
+    background-color: #333333;
     text-decoration: none;
 }
 ul.submenu > li > a:hover {
@@ -91,4 +90,44 @@ ul.submenu > li > a:hover {
 }
 ul.menu > li:hover > ul.submenu {
     display: block;
+}
+.fon1 {  /* фон для левой колонки (синий) */
+    width: 100%;
+    background: #3d2af0;
+    float: left; /* делаем все обертки плавающими блоками чтобы избежать добавления блока с clear: both; */
+    position: relative; /* чтобы иметь возможность сместить фон */
+    right: 30%; /* обнажаем красный фон для центральной колонки. 30% - ширина центральной колонки */
+}
+.fon2 {/* фон для центральной колонки (красный) */
+    width: 100%;
+    background: #e34456;
+    float: left;
+    position: relative;
+    right: 40%; /* обнажаем желтый фон для правой колонки. 40% - ширина правой колонки */
+}
+.fon3 {/* фон для правой колонки (желтый) */
+    width: 100%;
+    background: #e3e244;
+    float: left;
+}
+.leftColumn {
+    width: 30%;
+    float: left;
+    overflow: hidden; /* страховка от ломки верстки объектами шире размера колонки-родителя */
+    position:relative;
+    left:70%; /* возвращаем колонки с контентом на свои позиции. 70% - сумма смещений оберток fon1 и fon2 */
+}
+.centerColumn {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    left:70%;
+}
+.rightColumn {
+    width: 39%;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    left:70%;
 }

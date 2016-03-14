@@ -1,10 +1,13 @@
 body {
   background-image: url(../img/fon.jpg);
 }
+a:visited {
+  color: #128aa7;
+}
 .parent {
   background-color: white;
   width: 1064px;
-  height: 900px;
+  height: 883px;
   margin: 0px auto;
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
@@ -14,10 +17,11 @@ body {
 }
 .contacts {
     float: right;
-    color: black;
+    color: #128aa7;
     font-size: 12px;
     text-align: left;
     padding: 10px 25px 0px 0px;
+    font-family: Tahoma;
 }
 .contacts::first-line {
     font-size: 15px;
@@ -30,6 +34,7 @@ body {
     text-align: center;
     font-size: 15px;
     width: 65px;
+    color: #128aa7;
 }
 .countries img {
     display: block;
@@ -63,16 +68,18 @@ ul.menu > li > a {
     background-color: #333333;
     text-decoration: none;
     text-align: center;
+    font-size: 16px;
+    font-family: Tahoma;
     width: 132px;
 }
 ul.submenu {
     display: none;
     position: absolute;
-    width: 152px;
-    top: 37px;
+    width: 153px;
+    top: 35px;
     left: 0;
     font-size: 15px;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
 ul.submenu > li {
@@ -84,6 +91,8 @@ ul.submenu > li > a {
     color: white;
     background-color: #333333;
     text-decoration: none;
+    font-family: Tahoma;
+
 }
 ul.submenu > li > a:hover {
     text-decoration: underline;
@@ -91,43 +100,56 @@ ul.submenu > li > a:hover {
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
-.fon1 {  /* фон для левой колонки (синий) */
-    width: 100%;
-    background: #3d2af0;
-    float: left; /* делаем все обертки плавающими блоками чтобы избежать добавления блока с clear: both; */
-    position: relative; /* чтобы иметь возможность сместить фон */
-    right: 30%; /* обнажаем красный фон для центральной колонки. 30% - ширина центральной колонки */
-}
-.fon2 {/* фон для центральной колонки (красный) */
-    width: 100%;
-    background: #e34456;
-    float: left;
-    position: relative;
-    right: 40%; /* обнажаем желтый фон для правой колонки. 40% - ширина правой колонки */
-}
-.fon3 {/* фон для правой колонки (желтый) */
-    width: 100%;
-    background: #e3e244;
-    float: left;
+.fon {
+    width: 1064px;
+    overflow: hidden;
 }
 .leftColumn {
-    width: 30%;
+    width: 250px;
     float: left;
-    overflow: hidden; /* страховка от ломки верстки объектами шире размера колонки-родителя */
-    position:relative;
-    left:70%; /* возвращаем колонки с контентом на свои позиции. 70% - сумма смещений оберток fon1 и fon2 */
+    background: #d5d9e0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
 }
 .centerColumn {
-    width: 30%;
+    width: 564px;
     float: left;
-    overflow: hidden;
-    position:relative;
-    left:70%;
+    background: white;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    color: white;
 }
 .rightColumn {
-    width: 39%;
+    width: 250px;
     float: left;
-    overflow: hidden;
-    position:relative;
-    left:70%;
+    background: #d5d9e0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+p.info {
+    font-size: 18px;
+    text-align: center;
+    font-family: Tahoma;
+    line-height: 28px;
+}
+p.news {
+    font-size: 18px;
+    text-align: center;
+    font-family: Tahoma;
+    line-height: 28px;
+}
+p.info::first-line {
+    font-size: 25px;
+    font-weight: bold;
+}
+p.news::first-line {
+    font-size: 30px;
+    font-weight: bold;
+}
+p.copy{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-family: Tahoma;
+  font-size: 14px;
 }

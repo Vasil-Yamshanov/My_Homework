@@ -7,7 +7,6 @@ a:visited {
 .parent {
   background-color: white;
   width: 1064px;
-  height: 883px;
   margin: 0px auto;
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 }
@@ -149,7 +148,7 @@ p.news::first-line {
 p.copy{
   color: white;
   text-align: center;
-  margin-top: 15px;
+  margin: 13px 0px 10px 0px;
   font-family: Tahoma;
   font-size: 14px;
 }

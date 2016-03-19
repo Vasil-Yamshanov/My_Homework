@@ -1,0 +1,73 @@
+body {
+  background-image: url(../img/fon.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+div.ola {
+  float: right;
+  position: relative;
+  line-height: 20px;
+}
+div.flag {
+  float: right;
+  position: relative;
+  line-height: 20px;
+}
+div.top {
+  line-height: 20px;
+  background-color: #074f8f;
+}
+.clearfix:after{
+      content: '';
+      display: block;
+      clear: both;
+}
+ul > li {
+  float: right;
+  position: relative;
+  width: 90px;
+}
+ul > li > a {
+    display: block;
+    padding: 5px;
+    color: #60b5ed;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+div.ola, div.flag {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+div.ola > a, div.flag > a {
+  text-decoration: none;
+  color: white;
+}
+div.flag {
+  margin-left: 40px;
+}
+div.ola {
+  margin-right: 20px;
+  margin-left: 10px;
+  background-color: #60b5ed;
+}
+div.header {
+  border-right: 1px solid #60b5ed;
+  overflow: hidden;
+}
+div.flag > img {
+  position: absolute;
+  top: 5px;
+  left: -25px;
+}
+div.header > ul > li > a:hover {
+  display: block;
+  background-color: #4eabda;
+  color: white;
+}
